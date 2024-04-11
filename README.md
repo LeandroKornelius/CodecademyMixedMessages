@@ -4,8 +4,8 @@ This is a Node.js console application created as part of the back-end career pat
 
 ## Features
 
-- Generates random messages by combining different parts of speech.
-- Simple and intuitive command-line interface.
+- Generates random messages
+- Simple use through the command-line interface.
 - Easy to extend and customize.
 
 ## Objectives 
