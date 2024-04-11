@@ -12,4 +12,6 @@ const spidermanQuotes = [
 ];
 
 const randomIdx = Math.floor(Math.random() * spidermanQuotes.length);
-console.log(randomIdx);
+// console.log(randomIdx);
+
+console.log(spidermanQuotes[randomIdx]);
