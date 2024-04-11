@@ -1,5 +1,5 @@
 const superheroQuotes = {
-    spiderman: [
+    "Spider-man": [
         "With great power comes great responsibility.",
         "I believe there's a hero in all of us, that keeps us honest, gives us strength, makes us noble, and finally allows us to die with pride, even though sometimes we have to be steady, and give up the thing we want the most. Even our dreams.",
         "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
@@ -11,7 +11,7 @@ const superheroQuotes = {
         "The world needs heroes.",
         "You're friendly neighborhood Spider-Man!",
     ],
-    ironman: [
+    "Iron-man": [
         "I am Iron Man.",
         "I told you. I don't want to join your super-secret boy band.",
         "Genius, billionaire, playboy, philanthropist.",
@@ -21,7 +21,7 @@ const superheroQuotes = {
         "I have a plan: Attack.",
         "I shouldn't be alive... unless it was for a reason.",
     ],
-    captainamerica: [
+    "Captain America": [
         "I can do this all day.",
         "I'm just a kid from Brooklyn.",
         "I'm with you till the end of the line.",
@@ -34,10 +34,10 @@ const superheroQuotes = {
     ],
 };
 
-console.log(superheroQuotes);
+// console.log(superheroQuotes);
 
-
-const randomIdx = Math.floor(Math.random() * spidermanQuotes.length); // variable contains random index from zero to the number of elements in the array
-// console.log(randomIdx);
-
-console.log(spidermanQuotes[randomIdx]); // displays in the terminal a random quote from the array
+const superheros = Object.keys(superheroQuotes); 
+const selectSuperhero = superheros[Math.floor(Math.random() * superheros.length)]; // selects a random superhero from the keys in the superheroQuotes 
+const randomIdx = Math.floor(Math.random() * superheroQuotes[selectSuperhero].length);  // with the selected superhero, get a random index from the quotes array
+const randomQuote = superheroQuotes[selectSuperhero][randomIdx]; 
+console.log(`${selectSuperhero}: "${randomQuote}"`);
