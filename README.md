@@ -1,10 +1,10 @@
 # Random Message Generator
 
-This is a Node.js console application created as part of the back-end career path on Codecademy. The application generates random messages each time it's run.
+This is a Node.js console application created as part of the back-end career path on Codecademy. The application generates a random message each time it's run.
 
 ## Features
 
-- Generates random messages
+- Generates random message
 - Simple use through the command-line interface.
 - Easy to extend and customize.
 
