@@ -11,7 +11,7 @@ const spidermanQuotes = [
     "You're friendly neighborhood Spider-Man!",
 ];
 
-const randomIdx = Math.floor(Math.random() * spidermanQuotes.length);
+const randomIdx = Math.floor(Math.random() * spidermanQuotes.length); // variable contains random index from zero to the number of elements in the array
 // console.log(randomIdx);
 
-console.log(spidermanQuotes[randomIdx]);
+console.log(spidermanQuotes[randomIdx]); // displays in the terminal a random quote from the array
